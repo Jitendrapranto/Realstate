@@ -169,13 +169,16 @@
     </div>
 
     <!-- FOUNDER SECTION -->
-    <div class="founder-section">
-        <h2 class="founder-title">আমাদের প্রতিষ্ঠাতা</h2>
-        <div class="founder-card">
-            <img src="founder.jpg" alt="Founder">
-            <h5>জনাব ................</h5>
-            <p>জনাব........ একজন উদ্ভাবক ও সমাজসেবক, যিনি আমাদের সংস্থাকে তার দৃষ্টিভঙ্গি ও নেতৃত্বের মাধ্যমে গড়ে
-                তুলেছেন।</p>
+    <div class="founder-section py-16">
+        <div class="container flex flex-col lg:flex-row items-center p-0">
+            <div class="lg:w-1/2 mb-4 lg:mb-0">
+                <img src="/assets/images/founder.jpg" alt="Founder" class="w-full lg:mx-0 rounded-md h-[500px]">
+            </div>
+            <div class="lg:w-1/2 lg:pl-8 text-start lg:text-start">
+                <h2 class="text-3xl font-bold text-green-900 mb-6">আমাদের প্রতিষ্ঠাতা</h2>
+                <h5 class="font-bold text-green-900 mb-2">জনাব ................</h5>
+                <p class="text-gray-700">জনাব........ একজন উদ্ভাবক ও সমাজসেবক, যিনি আমাদের সংস্থাকে তার দৃষ্টিভঙ্গি ও নেতৃত্বের মাধ্যমে গড়ে তুলেছেন।</p>
+            </div>
         </div>
     </div>
 
