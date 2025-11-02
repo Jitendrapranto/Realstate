@@ -15,17 +15,17 @@
 <body>
     <section class="py-20 mt-20 min-h-screen flex space-x-4 items-center justify-center">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
-                <div class="lg:self-start max-w-md p-0 m-0">
+            <div class="flex flex-col lg:flex-row items-stretch justify-between gap-8 w-full bg-red-500">
+                <div class="lg:self-start w-[20%] max-w-[20%] h-full">
                     <h3 class="text-2xl font-semibold">আমাদের মিশন</h3>
                     <p class="p-0 m-0">আমরা গ্রাহকদের জন্য সেরা রিয়েল এস্টেট সমাধান প্রদান করি, যাতে তারা তাদের পছন্দের বাড়ি সহজেই
                         খুঁজে পান। আমাদের লক্ষ্য হলো গ্রাহকদের সাথে স্বচ্ছতা এবং বিশ্বাসের ভিত্তিতে কাজ করা।</p>
                 </div>
-                <div class="shrink-0">
-                    <img src="https://picsum.photos/288/750" alt="জলজোছনা"
-                        class="rounded-md w-96 h-[750px] object-cover">
+                <div class="w-[60%]">
+                    <img src="{{ asset('assets/images/nature.jpg') }}" alt="জলজোছনা"
+                        class="rounded-md w-full object-cover">
                 </div>
-                <div class="lg:self-end max-w-md bg-red-500">
+                <div class="lg:self-end w-[20%] max-w-[20%] h-full">
                     <h3 class="text-2xl font-semibold">আমাদের ভিশন</h3>
                     <p class="p-0 m-0">বাংলাদেশের শীর্ষ রিয়েল এস্টেট প্ল্যাটফর্ম হয়ে উঠা, যেখানে গ্রাহকের সন্তুষ্টি সর্বোচ্চ
                         অগ্রাধিকার। আমরা ভবিষ্যতে আরও উন্নত প্রযুক্তি এবং সেবা প্রদানের মাধ্যমে গ্রাহকদের জীবনকে সহজ
