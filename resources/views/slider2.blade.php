@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>আমাদের সম্পর্কে</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
             font-family: 'Noto Sans Bengali', sans-serif;
@@ -41,6 +42,8 @@
         .history-section {
             padding: 60px 15px;
             background-color: #f9f9f9;
+            margin-top: 80px;
+            margin-bottom: 80px;
         }
 
         .history-title {
@@ -168,15 +171,42 @@
     </div>
 
     <!-- FOUNDER SECTION -->
-    <div class="founder-section">
-        <h2 class="founder-title">আমাদের প্রতিষ্ঠাতা</h2>
-        <div class="founder-card">
-            <img src="founder.jpg" alt="Founder">
-            <h5>জনাব ................</h5>
-            <p>জনাব........ একজন উদ্ভাবক ও সমাজসেবক, যিনি আমাদের সংস্থাকে তার দৃষ্টিভঙ্গি ও নেতৃত্বের মাধ্যমে গড়ে
-                তুলেছেন।</p>
+    <div class="founder-section py-16">
+        <div class="container flex flex-col lg:flex-row items-center p-0">
+            <div class="lg:w-1/2 mb-4 lg:mb-0">
+                <img src="/assets/images/founder.jpg" alt="Founder" class="w-full lg:mx-0 rounded-md h-[500px]">
+            </div>
+            <div class="lg:w-1/2 lg:pl-8 text-start lg:text-start">
+                <h2 class="text-3xl font-bold text-green-900 mb-6">আমাদের প্রতিষ্ঠাতা</h2>
+                <h5 class="font-bold text-green-900 mb-2">জনাব ................</h5>
+                <p class="text-gray-700">জনাব........ একজন উদ্ভাবক ও সমাজসেবক, যিনি আমাদের সংস্থাকে তার দৃষ্টিভঙ্গি ও নেতৃত্বের মাধ্যমে গড়ে তুলেছেন।</p>
+            </div>
         </div>
     </div>
+
+    <section class="min-h-screen flex space-x-4 items-center justify-center gap-4 lg:gap-0 my-4 lg:my-0 mb-8">
+        <div class="container mx-auto px-4 h-full">
+            <div
+                class="rounded-md flex flex-col lg:flex-row items-center lg:items-stretch justify-between gap-4 w-full min-h-full bg-[#F9F9F9] p-8">
+                <div class="lg:self-start w-full lg:w-[25%] h-full">
+                    <h3 class="text-2xl font-semibold">আমাদের মিশন</h3>
+                    <p class="p-0 m-0">আমরা গ্রাহকদের জন্য সেরা রিয়েল এস্টেট সমাধান প্রদান করি, যাতে তারা তাদের পছন্দের
+                        বাড়ি সহজেই
+                        খুঁজে পান। আমাদের লক্ষ্য হলো গ্রাহকদের সাথে স্বচ্ছতা এবং বিশ্বাসের ভিত্তিতে কাজ করা।</p>
+                </div>
+                <div class="w-full lg:w-[50%]">
+                    <img src="/assets/images/nature.jpg" alt="জলজোছনা" class="rounded-md w-full lg:h-[750px] h-full object-cover">
+                </div>
+                <div class="lg:self-end w-full lg:w-[25%] h-full">
+                    <h3 class="text-2xl font-semibold">আমাদের ভিশন</h3>
+                    <p class="p-0 m-0">বাংলাদেশের শীর্ষ রিয়েল এস্টেট প্ল্যাটফর্ম হয়ে উঠা, যেখানে গ্রাহকের সন্তুষ্টি
+                        সর্বোচ্চ
+                        অগ্রাধিকার। আমরা ভবিষ্যতে আরও উন্নত প্রযুক্তি এবং সেবা প্রদানের মাধ্যমে গ্রাহকদের জীবনকে সহজ
+                        করতে চাই।</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
